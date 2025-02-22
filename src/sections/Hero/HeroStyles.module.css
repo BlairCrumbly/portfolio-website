@@ -11,6 +11,7 @@
     max-width: 200px;
   }
 
+
   span {
     display: flex;
     gap: 25px;
@@ -76,6 +77,14 @@
   flex-direction: column;
   gap: 20px;
 }
+.heroemail{
+  color: green;
+}
+.heroemail:hover{
+  font-weight: 400;
+}
+
+
 
 
 @media (width >= 800px) {
