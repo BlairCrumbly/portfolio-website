@@ -36,22 +36,24 @@
   /* Close button */
   .closeButton {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: rgb(223, 47, 47);
+    top: 5px; /* Adjusted top to reduce vertical space */
+    right: 5px; /* Adjusted right to reduce horizontal space */
+    background-color: rgb(115, 115, 115);
     color: white;
     border: none;
-    padding: 8px;
-    font-size: 18px;
+    padding: 5px 8px; /* Reduced padding */
+    font-size: 18px; /* Further reduced font size */
     cursor: pointer;
     border-radius: 5px;
+    width: 12%; /* Ensure width is adjusted based on content */
+    height: 12%; /* Ensure height fits the content size */
   }
   
   /* Visit button */
   .visitButton {
     display: inline-block;
     margin-top: 20px;
-    padding: 12px 24px;
+    padding: 12px 44px;
     background-color: #4CAF50;
     color: white;
     text-decoration: none;

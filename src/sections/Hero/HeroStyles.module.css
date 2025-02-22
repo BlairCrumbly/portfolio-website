@@ -6,52 +6,44 @@
   text-align: center;
   height: 80dvh;
   min-height: 500px;
-  padding-top: 30px; 
-  .hero {
-    max-width: 200px;
-  }
+  padding-top: 30px;
+}
 
+.hero {
+  max-width: 200px;
+}
 
-  span {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
+span {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
 
-    a {
-      margin: 0;
+a {
+  width: fit-content;
+  align-self: center;
+}
 
-      img {
-        width: 30px;
-      }
-    }
-  }
+button {
+  background-color: #1b3716;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
 
-  a {
-    width: fit-content;
-    align-self: center;
-  }
+button:hover {
+  transform: scale(1.05);
+}
 
-  button {
-    background-color:  #1b3716;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    width: 126px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-  }
-
-  button:hover {
-    transform: scale(1.05);
-  }
-
-  button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  }
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .colorModeContainer {
@@ -68,24 +60,30 @@
   cursor: pointer;
 }
 
+/* Center and align description */
 .description {
   max-width: 24ch;
+  margin: 20px auto; /* Center the description with margin */
+  font-size: 1.2rem; /* Adjust font size for readability */
+  line-height: 1.5; /* Improve line spacing */
+  color: var(--text-color); /* Ensure color consistency */
 }
 
+/* Ensure text alignment in the info container */
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center; /* Center align all text items in the container */
 }
-.heroemail{
+
+.heroemail {
   color: green;
 }
-.heroemail:hover{
+
+.heroemail:hover {
   font-weight: 400;
 }
-
-
-
 
 @media (width >= 800px) {
   .container {
