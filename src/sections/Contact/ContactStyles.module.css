@@ -38,8 +38,8 @@ textarea {
 }
 
 input[type='submit'] {
-  background-color: var(--btn-color);
-  color: var(--btn-text-color);
+  background-color: #1b3716;
+  color: white;
   border: none;
   border-radius: 20px;
   width: 150px;

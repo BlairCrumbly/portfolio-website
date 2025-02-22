@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Pushes icons to the left and links to the right */
+    align-items: center;
+    padding: 15px 5%;
+    background: #1a1a1a;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Theme Toggle Icon - Left */
+.themeToggle {
+    cursor: pointer;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Container - Ensures links are on the right */
+.navContainer {
+    flex-grow: 1; /* Makes sure it takes up space and pushes the links to the right */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Navigation Links - Right */
+.navLinks {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Ensures links align properly */
+    gap: 1.5rem; /* Space between links */
+    padding-right: 15%; /* Prevents links from touching the edge */
+}
+
+.navLinks li {
+    display: flex;
+    align-items: center;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.navLinks li a:hover {
+    color: #4e9a41;
+}
