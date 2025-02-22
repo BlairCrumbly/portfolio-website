@@ -64,9 +64,11 @@ function Hero() {
             onClick={copyToClipboard} 
             style={{ cursor: "pointer" }}
           >
+
+
             {email}
           </p>
-          {copied && <p style={{ color: "green", fontSize: "0.9rem" }}>Copied to clipboard!</p>}
+          {copied && <p style={{ color: "MediumSeaGreen", fontSize: "0.9rem" }}>Copied to clipboard!</p>}
           
           {/* Icons */}
           <span>
